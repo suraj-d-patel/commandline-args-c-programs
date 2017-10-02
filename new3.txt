@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(int count,char *array[])
+{	int sum =0;
+for(int i=1;i<count;i++)
+   {int num= atoi(array[i]);
+	  sum=sum+num;
+   }
+   printf("%d",sum);
+return 0;
+}

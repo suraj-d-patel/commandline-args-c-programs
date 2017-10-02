@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(int count, char *array[])
+{	int large=atoi(array[1]);
+for(int i=1;i<=count;i++)
+{int num = atoi(array[i]);
+if(num>=large)
+{
+	large=num;
+}}
+printf("%f",large);
+return 0;
+}

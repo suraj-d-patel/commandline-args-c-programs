@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(int count char*array[]){
+int num,sum=0,count=0;
+float average;
+for(int i=1;i<count;i++){
+	num = atoi(array[i]);
+	if(num%2==1)
+	{sum=sum+num;
+	count++;}
+	}
+	average=(float)sum/count;
+	printf("%f",average);
+return 0;
+}

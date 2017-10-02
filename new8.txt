@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(int count ,char *array[])
+{
+int tosearch=atoi(array[count-1]);
+for(int i =1;i<=count;i++)
+{
+	int num = atoi(array[i]);
+	if(num==tosearch)
+	{printf("Searched!!");}
+}
+return 0;
+}

@@ -1,0 +1,10 @@
+//print array in the reverse order
+#include<stdio.h>
+#include<stdlib.h>
+int main(int count,char *array[])
+{int b[count-1];
+	for(int i=1;i<=count;i++)
+	{int b[count-i] = atoi(array[i]);
+	printf("%d",b[count-i]);}
+return 0;
+}

@@ -1,0 +1,13 @@
+//Conversion from Decimal to Binary
+#include<stdio.h>
+#include<stdlib.h>
+int main(int count,char* array[])
+{
+	int num = atoi(array[1]);
+	int binary=0,base=1,rem;
+	rem= num%2;
+	bianry=bainary+base*rem;
+	num=num/2;
+	base=base*10;
+	return 0;
+}
